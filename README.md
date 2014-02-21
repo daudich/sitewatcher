@@ -8,11 +8,10 @@ Thanks to [Mark Sanborn](https://github.com/sanbornm/)  for the inspiration.
 Usage: sitemonitor.py [options] url
 
 Options:
-  -h, --help            show this help message and exit
-  -t, --log-response-time
-                        Turn on logging for response times
-  -r, --alert-on-slow-response
-                        Turn on alerts for response times
+
+-h, --help *show this help message and exit*
+-t, --log-response-time *Turn on logging for response times*
+-r, --alert-on-slow-response *Turn on alerts for response times*
   -g, --use-gmail       Send email with Gmail.  Must also specify username and
                         password
   --smtp-hostname=SMTP_HOSTNAME
