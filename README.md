@@ -10,11 +10,15 @@ Usage: sitemonitor.py [options] url
 Options:
 
 -h, --help *show this help message and exit*
+
 -t, --log-response-time *Turn on logging for response times*
+
 -r, --alert-on-slow-response *Turn on alerts for response times*
-  -g, --use-gmail       Send email with Gmail.  Must also specify username and
+
+-g, --use-gmail       Send email with Gmail.  Must also specify username and
                         password
-  --smtp-hostname=SMTP_HOSTNAME
+
+--smtp-hostname=SMTP_HOSTNAME
                         Set the stmp server host.
   --smtp-port=SMTP_PORT
                         Set the smtp server port.
