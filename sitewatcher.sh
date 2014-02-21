@@ -11,7 +11,7 @@ if pgrep -f siteWatcher.py
     then
         echo "ERROR :: Site watcher is already running, please exit that instance first.\n"
 else
-    ./siteWatcher.py -t -g -r -u stats@giantgoat.com -p includedbestlake6 -s SiteWatcher -d dhiren@giantgoat.com -f sites.input
+    ./siteWatcher.py -t -g -r -u email@name.com -p password -s SiteWatcher -d inform@someone.com -f sites.input
     echo ""
     echo "Site watcher started.........................................."
 fi
