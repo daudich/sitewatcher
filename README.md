@@ -1,7 +1,10 @@
 Sitewatcher
 ===========
 
-A simple sitewatcher script written in Python using Pickle.
+A simple sitewatcher script written in Python using Pickle. It can be set as a cron job.
+If any sites are down, then an email is sent to inform someone of it.
+
+
 
 Thanks to [Mark Sanborn](https://github.com/sanbornm/)  for the inspiration.
 
